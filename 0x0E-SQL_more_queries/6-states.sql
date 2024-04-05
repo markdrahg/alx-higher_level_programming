@@ -1,7 +1,11 @@
-tes the database hbtn_0d_usa and the table states (in the database hbtn_0d_usa) on your MySQL server
--- creates a database
+-- Create the database hbtn_0d_usa if it does not exist
 CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
--- use a database
+
+-- Use the hbtn_0d_usa database
 USE hbtn_0d_usa;
--- creates a table
-CREATE TABLE IF NOT EXISTS states (id INT UNIQUE NOT NULL AUTO_INCREMENT, name VARCHAR(256) NOT NULL, PRIMARY KEY(id));
+
+-- Create the table states if it does not exist
+CREATE TABLE IF NOT EXISTS states (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(256) NOT NULL
+);
