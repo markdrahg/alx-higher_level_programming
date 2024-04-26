@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 
 """ Write a script that lists all State objects that contain the letter a
